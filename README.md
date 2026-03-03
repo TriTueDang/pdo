@@ -63,6 +63,8 @@ Projekt obsahuje následující typy dokumentace:
 - Popis jednotlivých funkcí aplikace
 - Typické scénáře použití
 
+- Popis použití skript přes Matlab
+
 **Účel:**
 - Umožnit efektivní používání aplikace
 - Usnadnit práci koncovým uživatelům
@@ -75,7 +77,7 @@ Projekt obsahuje následující typy dokumentace:
 Dokumentace kombinuje:
 
 - 1× referenční dokumentaci (technická)
-- 1× uživatelskou dokumentaci (návody a UI)
+- 2× uživatelská dokumentace (návody a UI)
 
 Cílem je zajistit:
 
