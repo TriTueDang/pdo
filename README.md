@@ -1,84 +1,21 @@
-# NTI/PDO – Psaní dokumentace
+# Dokumentace bakalářské práce
 
-## 1. Produkt
+Tato dokumentace poskytuje přehled a uživatelské příručky k bakalářské práci.
 
-Produkt je výstup bakalářské práce, což je rozšíření stávajícího programu v laboratornim počítači TUL. Program je napsán v jazyce **C# (.NET Framework)** s využitím technologie **Windows Forms**.
-
-Součástí produktu je:
-
-- Uživatelské rozhraní vytvořené pomocí Windows Forms
-- Implementace aplikační logiky v jazyce C#
-- Návrh tříd a metod
-
-Dokumentace slouží k vysvětlení implementačních detailů a způsobu používání části aplikace, kterou jsem vyvíjel.
+Jedná se o softwarový produkt vyvíjený v jazyce **C# (.NET Framework)** s využitím technologie Windows Forms. Slouží k vytváření LUT tabulek a vizuálních podnětů pro psychofyzikální experimenty.
 
 ---
 
-## 2. Cílová skupina
+## Index dokumentace
 
-Dokumentace je určena především pro:
+V dokumentaci jsou popsány následující kapitoly:
 
-### Pracovníky Technické univerzity v Liberci (TUL)
-- Vedoucí práce
-- Pedagogy a odborníci využívající práci k jejich účelům
-
-### Studenty
-- Studenty IT oborů
-- Studenty zdravotnických oborů
-- Studentům, kteří chtějí na projektu dále navazovat nebo jej rozšiřovat
-
-### Charakteristika cílové skupiny
-- Základní až pokročilá znalost programování v C#
-- Orientace v objektově orientovaném návrhu
-- Znalost prostředí .NET Framework
-- Základní zkušenost s Windows Forms aplikacemi
+| Kapitola | Popis | Odkaz |
+| :--- | :--- | :--- |
+| **01. Přehled a koncept** | Základní architektura aplikace, rozložení UI a celkový koncept systému. | [Přejít na koncept →](01_koncept_aplikace.md) |
+| **02. Kalibrace a měření** | Postup měření LUT tabulek, kalibrace jasu a měření napětí. | [Přejít na měření →](02_kalibrace_a_mereni.md) |
+| **03. Spouštění podnětů** | Návod pro generování podnětů, nastavení parametrů a jejich spouštění. | [Přejít na podněty →](03_spousteni_stimulu.md) |
 
 ---
 
-## 3. Typy dokumentace
-
-Projekt obsahuje následující typy dokumentace:
-
----
-
-### 3.1 Referenční dokumentace
-
-**Rozsah:**
-- Dokumentace tříd
-- Dokumentace veřejných metod
-- Popis vlastností a parametrů
-- Datové typy a návratové hodnoty
-
-**Účel:**
-- Poskytnout přesný technický přehled o implementaci
-- Umožnit snadnou orientaci ve zdrojovém kódu
-- Podpora dalšího vývoje a rozšiřování projektu
-
----
-
-### 3.3 Uživatelská dokumentace
-
-**Rozsah:**
-- Popis uživatelského rozhraní (Windows Forms)
-- Popis jednotlivých funkcí aplikace
-- Typické scénáře použití
-
-**Účel:**
-- Umožnit efektivní používání aplikace
-- Usnadnit práci koncovým uživatelům
-- Minimalizovat potřebu technické podpory
-
----
-
-## Shrnutí
-
-Dokumentace kombinuje:
-
-- 1× referenční dokumentaci (technická)
-- 1× uživatelskou dokumentaci (návody a UI)
-
-Cílem je zajistit:
-
-- Srozumitelnost řešení
-- Přenositelnost znalostí
-- Možnost dalšího akademického i praktického využití projektu
+*Poslední aktualizace: 12. dubna 2026*
