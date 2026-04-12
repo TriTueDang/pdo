@@ -28,7 +28,7 @@ Aplikace umožňuje generovat vizuální stimuly pro psychofyzikální experimen
 <p align="center">
   <img src="screenshots/postup_spusteni.png" alt="Konfigurace a spuštění stimulu">
   <br>
-  <em>Obrázek 2: Konfigurace a spuštění stimulu.</em>
+  <em>Obrázek 2: Postup spuštění stimulu.</em>
 </p>
 
 

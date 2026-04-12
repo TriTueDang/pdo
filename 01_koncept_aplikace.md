@@ -38,7 +38,7 @@ Tento modul slouží k ovládání hardwaru (kamera, fotodioda) a sběru dat pro
 <p align="center">
   <img src="screenshots/measure.png" alt="Rozhraní měření">
   <br>
-  <em>Obrázek 3: Rozhraní pro konfiguraci měření.</em>
+  <em>Obrázek 3: Diagram zapojení pro měření.</em>
 </p>
 
 ### Modul pro stimuly
@@ -47,7 +47,7 @@ Tento modul slouží ke konfiguraci a vykreslování vizuálních podnětů na e
 <p align="center">
   <img src="screenshots/psych.png" alt="Rozhraní stimulů">
   <br>
-  <em>Obrázek 4: Schema zapojení pro spouštění stimulů.</em>
+  <em>Obrázek 4: Schéma zapojení pro spouštění stimulů.</em>
 </p>
 
 ---
