@@ -9,8 +9,11 @@ Před začátkem měření proveďte základní nastavení monitoru.
 1. Spusťte testovací podnět (viz Obrázek 1).
 2. Manuálně nakalibrujte jas monitoru na požadovanou výchozí hodnotu.
 
-![Kalibrace monitoru](screenshots/kalibrace_monitoru.png)
-*Obrázek 1: Spuštění testovacího podnětu.*
+<p align="center">
+  <img src="screenshots/kalibrace_monitoru.png" alt="Kalibrace monitoru">
+  <br>
+  <em>Obrázek 1: Spuštění testovacího podnětu.</em>
+</p>
 
 > [!IMPORTANT]
 > **Zatemněte místnost.** Jakékoli okolní světlo zkresluje výsledky měření jasu.
@@ -30,8 +33,11 @@ Měření jasu probíhá pro celou škálu šedi (0–255). K měření použijt
 
 Měření trvá přibližně 45 minut. Průběh měření sledujte v části C uživatelského rozhraní.
 
-![Měření jasu](screenshots/mereni_lum.png)
-*Obrázek 2: Rozhraní pro měření jasu.*
+<p align="center">
+  <img src="screenshots/mereni_lum.png" alt="Měření jasu">
+  <br>
+  <em>Obrázek 2: Rozhraní pro měření jasu.</em>
+</p>
 
 ### Měření napětí fotodiody
 
@@ -42,8 +48,11 @@ V případě použití fotodiody měřte napětí přímo na výstupu čidla.
 
 Měření trvá přibližně 10 minut. Průběh měření sledujte v části C uživatelského rozhraní.
 
-![Měření napětí](screenshots/mereni_volt.png)
-*Obrázek 3: Rozhraní pro sledování napětí.*
+<p align="center">
+  <img src="screenshots/mereni_volt.png" alt="Měření napětí">
+  <br>
+  <em>Obrázek 3: Rozhraní pro sledování napětí.</em>
+</p>
 
 ---
 [Zpět na README](README.md)

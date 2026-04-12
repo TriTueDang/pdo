@@ -6,29 +6,37 @@ Aplikace umožňuje generovat vizuální stimuly pro psychofyzikální experimen
 
 1. Klikněte na záložku **Dang BP**.
 
-![Záložka BP](screenshots/zalozkaBp.png)
+<p align="center">
+  <img src="screenshots/zalozkaBp.png" alt="Záložka Dang BP">
+  <br>
+  <em>Obrázek 1: Záložka pro bakalářskou práci.</em>
+</p>
 
 > [!IMPORTANT]
 > **Příprava před spuštěním:**
 > - Zapněte externí monitor.
 > - Klikněte na tlačítka pro inicializaci **MATLABu** v části A a **Psychtoolboxu** v části B.
-> - Změřte a vytvořte **LUT tabulky** pro připojený monitor.
+> - Změřte a vytvořte **LUT tabulky** pro připojený monitor. Viz [Kalibrace a měření](02_kalibrace_a_mereni.md).
 
 > [!TIP]
 > Pokud záložku v horní liště nevidíte, klikněte 2x na šipku vpravo u přepínače záložek.
 
 2. Vyberte typ stimulu a nastavte jeho parametry.
 3. Stiskněte tlačítko **"Run"**.
+4. Podle parametrů muže stimul na externím monitoru vypadat například jako Obrázek 3:
 
-Aplikace vykreslí stimul na externím monitoru.
+<p align="center">
+  <img src="screenshots/postup_spusteni.png" alt="Konfigurace a spuštění stimulu">
+  <br>
+  <em>Obrázek 2: Konfigurace a spuštění stimulu.</em>
+</p>
 
-![Postup spuštění](screenshots/postup_spusteni.png)
-*Obrázek 1: Konfigurace a spuštění stimulu.*
 
-4. Podle parametrů muže stimul na externím monitoru vypadat například takto:
-
-![Sinusový stimul](screenshots/2circles.png)
-*Obrázek 2: Sinusový stimul.*
+<p align="center">
+  <img src="screenshots/2circles.png" alt="Sinusový stimul">
+  <br>
+  <em>Obrázek 3: Sinusový stimul - náhled na monitoru.</em>
+</p>
 
 ---
 
@@ -44,8 +52,11 @@ Slouží ke studiu viditelnosti flikru. Jas se mění plynule podle sinusové k�
 - **Čas [ms]:** Doba trvání stimulu.
 - **Segment & Mask:** Oblast monitoru a tvar stimulu.
 
-![Sinusový stimul](screenshots/sine.png)
-*Obrázek 3: Konfigurace sinusového stimulu.*
+<p align="center">
+  <img src="screenshots/sine.png" alt="Sine Wave">
+  <br>
+  <em>Obrázek 4: Konfigurace sinusového stimulu.</em>
+</p>
 
 ### 2. Obdélníkový stimul (Rectangular)
 Slouží ke stanovení kritické frekvence splývání (CFF). Jas skokově přechází mezi dvěma úrovněmi.
@@ -57,8 +68,11 @@ Slouží ke stanovení kritické frekvence splývání (CFF). Jas skokově přec
 - **Čas [ms]:** Doba trvání stimulu.
 - **Segment & Mask:** Oblast monitoru a tvar stimulu.
 
-![Obdélníkový stimul](screenshots/rect_doc.png)
-*Obrázek 4: Konfigurace obdélníkového stimulu.*
+<p align="center">
+  <img src="screenshots/rect_doc.png" alt="Rectangular">
+  <br>
+  <em>Obrázek 5: Konfigurace obdélníkového stimulu.</em>
+</p>
 
 ### 3. Sinusová mřížka (Grating)
 Slouží ke studiu kontrastní citlivosti (TCSF).
@@ -71,8 +85,11 @@ Slouží ke studiu kontrastní citlivosti (TCSF).
 - **Orientation:** Natočení mřížky.
 - **Čas [ms]:** Doba trvání stimulu.
 
-![Sinusová mřížka](screenshots/sine_contrast.png)
-*Obrázek 5: Konfigurace sinusové mřížky.*
+<p align="center">
+  <img src="screenshots/sine_contrast.png" alt="Grating">
+  <br>
+  <em>Obrázek 6: Konfigurace sinusové mřížky.</em>
+</p>
 
 ### 4. Textový kontrast (Text Contrast)
 Slouží k testování čitelnosti textu.
@@ -83,8 +100,11 @@ Slouží k testování čitelnosti textu.
 - **Kontrast [%]:** Weberův kontrast textu vůči pozadí.
 - **Čas [ms]:** Doba trvání stimulu.
 
-![Textový kontrast](screenshots/text_contrast.png)
-*Obrázek 6: Konfigurace textu.*
+<p align="center">
+  <img src="screenshots/text_contrast.png" alt="Text Contrast">
+  <br>
+  <em>Obrázek 7: Konfigurace textu.</em>
+</p>
 
 ---
 [Zpět na README](README.md)
