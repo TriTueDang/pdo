@@ -1,10 +1,10 @@
 # Koncept projektu
 
-Tento dokument popisuje základní koncept aplikace, její strukturu a rozdělení uživatelského rozhraní. Aplikace slouží k psychofyzikálním měřením a kalibraci monitorů v laboratorním prostředí.
+Tento dokument popisuje laboratorní sestavu, základní koncepty a rozdělení uživatelského rozhraní. Aplikace slouží k psychofyzikálním měřením a kalibraci monitorů v laboratorním prostředí.
 
-## Přehled sestavy
+## Laboratorní sestava
 
-Experimentální sestava se skládá z laboratorního PC s primárním monitorem 60 Hz a externim monitorem 240 Hz. Mohou byt pripojeny i další externí měřicí přístroje jako je kamera či fotodioda. Všechny tyto přístroje jsou propojeny do jednoho celku a jsou řízeny pomocí aplikace.
+Sestava obsahuje laboratorní PC, primární monitor (60 Hz) a externí monitor (240 Hz). K systému jsou připojeny externí měřicí přístroje (kamera, fotodioda). Celá sestava je řízena pomocí aplikace.
 
 ![Experimentální sestava](screenshots/experiment_sestava.png)
 *Obrázek 1: Experimentální sestava.*
@@ -13,40 +13,30 @@ Experimentální sestava se skládá z laboratorního PC s primárním monitorem
 
 ## Uživatelské rozhraní (UI)
 
-### Rozdělení UI:
-Hlavní rozhraní aplikace je rozděleno do několika částí.
-- **Část A:** Inicializace a nastavení aplikace.
-- **Část B:** Hlavní pracovní plocha, kde se provede mereni nebo spusti podnět.
-- **Část C:** Logy, progress mereni
+Vidíte hlavní okno aplikace rozdělené na tři klíčové části:
 
+- **Část A:** Zde inicializujte systém a nastavte globální parametry.
+- **Část B:** Zde konfigurujte měření a spouštějte testovací podněty.
+- **Část C:** Zde sledujte výpis logů a průběh probíhajícího měření.
 
 ![Celkový koncept UI](screenshots/koncept.png)
-*Obrázek 2: Hlavní okno aplikace s vyznačenými částmi A, B a C.*
-
-
-Pro přístup k funkcím vyvíjeným v rámci této práce slouží speciální záložka:
-
-![Záložka BP](screenshots/zalozkaBp.png)
-*Obrázek 3: Detail přepínače na záložku bakalářské práce.*
-
-Tip.
-pokud tuto konkrétní záložku nevidíte, musíte 2x stisknout šipku vpravo u tlačítek pro přepínání záložek.
+*Obrázek 2: Hlavní okno aplikace (části A, B a C).*
 
 ---
 
 ## Hlavní moduly
 
 ### Modul pro měření
-Slouží k interakci s hardwarem a sběru dat o jasu a napětí.
+Tento modul slouží k ovládání hardwaru (kamera, fotodioda) a sběru dat pro tvorbu LUT (Look-Up Table) tabulek.
 
 ![Rozhraní měření](screenshots/measure.png)
-*Obrázek 4: Náhled rozhraní pro konfiguraci měření LUT tabulek.*
+*Obrázek 3: Rozhraní pro konfiguraci měření.*
 
 ### Modul pro stimuly
-Umožňuje definovat a vykreslovat vizuální podněty na monitoru.
+Tento modul slouží ke konfiguraci a vykreslování vizuálních podnětů na externím monitoru.
 
 ![Rozhraní stimulů](screenshots/psych.png)
-*Obrázek 5: Nahled rozhraní pro výběr a spouštění vizuálních stimulů.*
+*Obrázek 4: Schema zapojení pro spouštění stimulů.*
 
 ---
 [Zpět na README](README.md)

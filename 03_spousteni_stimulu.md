@@ -2,53 +2,89 @@
 
 Aplikace umožňuje generovat vizuální stimuly pro psychofyzikální experimenty, jako je testování viditelnosti blikání (flicker) nebo kontrastní citlivosti.
 
-## Postup spuštění
+## Postup spuštění stimulu
 
-Nejprve je nutné přepnout aplikaci do režimu stimulů a nakonfigurovat požadované parametry.
+1. Klikněte na záložku **Dang BP**.
+
+![Záložka BP](screenshots/zalozkaBp.png)
+
+> [!IMPORTANT]
+> **Příprava před spuštěním:**
+> - Zapněte externí monitor.
+> - Klikněte na tlačítka pro inicializaci **MATLABu** v části A a **Psychtoolboxu** v části B.
+> - Změřte a vytvořte **LUT tabulky** pro připojený monitor.
+
+> [!TIP]
+> Pokud záložku v horní liště nevidíte, klikněte 2x na šipku vpravo u přepínače záložek.
+
+2. Vyberte typ stimulu a nastavte jeho parametry.
+3. Stiskněte tlačítko **"Run"**.
+
+Aplikace vykreslí stimul na externím monitoru.
 
 ![Postup spuštění](screenshots/postup_spusteni.png)
-*Obrázek 1: Průvodce spuštěním stimulu krok za krokem.*
+*Obrázek 1: Konfigurace a spuštění stimulu.*
+
+4. Podle parametrů muže stimul na externím monitoru vypadat například takto:
+
+![Sinusový stimul](screenshots/2circles.png)
+*Obrázek 2: Sinusový stimul.*
 
 ---
 
-## Typy stimulů
+## Typy stimulů a parametry
 
-### Sinusový signál (Sine)
+### 1. Sinusový stimul (Sine Wave)
+Slouží ke studiu viditelnosti flikru. Jas se mění plynule podle sinusové křivky.
 
-Generuje plynulé změny jasu v čase podle sinusové křivky. Používá se pro studium časové kontrastní citlivosti (TCSF).
+**Nastavte parametry:**
+- **Frekvence [Hz]:** Rychlost změn jasu.
+- **Amplituda / Kontrast [%]:** Rozsah mezi maximálním a minimálním jasem.
+- **Minimální jas [cd/m²]:** Spodní úroveň jasu.
+- **Čas [ms]:** Doba trvání stimulu.
+- **Segment & Mask:** Oblast monitoru a tvar stimulu.
 
 ![Sinusový stimul](screenshots/sine.png)
-*Obrázek 2: Náhled generovaného sinusového podnětu na obrazovce.*
+*Obrázek 3: Konfigurace sinusového stimulu.*
 
-![Sinusový kontrast](screenshots/sine_contrast.png)
-*Obrázek 3: Ukázka nastavení kontrastu pro sinusový stimul.*
+### 2. Obdélníkový stimul (Rectangular)
+Slouží ke stanovení kritické frekvence splývání (CFF). Jas skokově přechází mezi dvěma úrovněmi.
 
-### Obdélníkový signál (Rectangular)
-
-Jas se skokově mění mezi dvěma úrovněmi. Tento typ je vhodný pro stanovení kritické frekvence splývání (CFF).
+**Nastavte parametry:**
+- **Frekvence [Hz]:** Rychlost změn jasu.
+- **Amplituda / Kontrast [%]:** Rozsah mezi maximálním a minimálním jasem.
+- **Minimální jas [cd/m²]:** Spodní úroveň jasu.
+- **Čas [ms]:** Doba trvání stimulu.
+- **Segment & Mask:** Oblast monitoru a tvar stimulu.
 
 ![Obdélníkový stimul](screenshots/rect_doc.png)
-*Obrázek 4: Konfigurace obdélníkového signálu a jeho vykreslení.*
+*Obrázek 4: Konfigurace obdélníkového stimulu.*
 
-### Textový kontrast (Text Contrast)
+### 3. Sinusová mřížka (Grating)
+Slouží ke studiu kontrastní citlivosti (TCSF).
 
-Testování schopnosti rozlišit textové prvky při různých úrovních kontrastu vůči pozadí.
+**Nastavte parametry:**
+- **Spatial Frequency [cyc/deg]:** Hustota mřížky.
+- **Kontrast [%]:** Michelsonův kontrast.
+- **Minimální jas [cd/m²]:** Jas pozadí.
+- **Distance [cm]:** Pozorovací vzdálenost od monitoru.
+- **Orientation:** Natočení mřížky.
+- **Čas [ms]:** Doba trvání stimulu.
+
+![Sinusová mřížka](screenshots/sine_contrast.png)
+*Obrázek 5: Konfigurace sinusové mřížky.*
+
+### 4. Textový kontrast (Text Contrast)
+Slouží k testování čitelnosti textu.
+
+**Nastavte parametry:**
+- **Text:** Obsah textu.
+- **Minimální jas [cd/m²]:** Jas pozadí.
+- **Kontrast [%]:** Weberův kontrast textu vůči pozadí.
+- **Čas [ms]:** Doba trvání stimulu.
 
 ![Textový kontrast](screenshots/text_contrast.png)
-*Obrázek 5: Testovací vzor pro měření kontrastní citlivosti oka na textu.*
-
----
-
-## Parametry a jejich význam
-
-U každého stimulu je možné měnit následující hodnoty:
-
-- **Frekvence [Hz]:** Jak rychle se jas mění. Vyšší frekvence se používají k určení CFF.
-- **Amplituda / Kontrast [%]:** Rozdíl mezi maximálním a minimálním jasem.
-- **Střední jas (Mean Luminance):** Průměrná hodnota jasu, kolem které signál osciluje.
-- **Pozice a Velikost:** Nastavení, kde přesně na monitoru se má stimul zobrazit.
-
-Tyto parametry se mění v ovládacím panelu aplikace před stisknutím tlačítka "Start".
+*Obrázek 6: Konfigurace textu.*
 
 ---
 [Zpět na README](README.md)

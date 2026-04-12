@@ -1,36 +1,49 @@
 # Návod pro měření LUT tabulek
 
-Tento dokument popisuje postup při vytváření LUT (Look-Up Table) tabulek, které zajišťují správnou kalibraci barev a jasů monitoru.
+Tento dokument popisuje postup při vytváření LUT (Look-Up Table) tabulek, které zajišťují správnou kalibraci barev a jasů monitoru pro experimentální účely.
 
-## Kalibrace monitoru
+## Příprava a kalibrace monitoru
 
-Před vlastním měřením je nutné provést základní kalibraci monitoru, aby následné vytváření LUT tabulek bylo co nejpřesnější. Spusť jeden podnět podle obrázku a pak manuálně kalibruj jas monitoru podle toho, co požaduješ.
+Před začátkem měření proveďte základní nastavení monitoru.
+
+1. Spusťte testovací podnět (viz Obrázek 1).
+2. Manuálně nakalibrujte jas monitoru na požadovanou výchozí hodnotu.
 
 ![Kalibrace monitoru](screenshots/kalibrace_monitoru.png)
-*Obrázek 1: Spuštění jednoho podnětu pro kalibraci monitoru.*
+*Obrázek 1: Spuštění testovacího podnětu.*
 
+> [!IMPORTANT]
+> **Zatemněte místnost.** Jakékoli okolní světlo zkresluje výsledky měření jasu.
 ---
 
 ## Postup měření LUT
 
-Vlastní měření probíhá automatizovaně na základě zvolených úrovní signálu. Výsledky jsou klíčové pro zobrazení podnětů.
+Měření probíhá automatizovaně na základě zvolených úrovní signálu.
 
-### Měření jasu
+### Měření jasu (Luminance)
 
-Měření jasu se provádí pro celou škálu šedi (0–255). Tím se získá reálná charakteristika jasu použitého displeje. K měření se používá kamera.
+Měření jasu probíhá pro celou škálu šedi (0–255). K měření použijte kalibrovanou kameru.
+
+1. Připravte a zapněte kameru.
+2. Zaostřete kameru na středovou oblast monitoru, kde se vykresluje podnět.
+3. Spusťte automatické měření jasu (viz Obrázek 2).
+
+Měření trvá přibližně 45 minut. Průběh měření sledujte v části C uživatelského rozhraní.
 
 ![Měření jasu](screenshots/mereni_lum.png)
-*Obrázek 2: Spuštění měření jasu.*
+*Obrázek 2: Rozhraní pro měření jasu.*
 
 ### Měření napětí fotodiody
 
-Pokud je připojen externí hardware, aplikace umožňuje měřit napětí na výstupu čidla. To slouží k ověření stability a přesnosti měřicího řetězce.
+V případě použití fotodiody měřte napětí přímo na výstupu čidla.
+
+1. Připojte fotodiodu k systému.
+2. Spusťte měření napětí (viz Obrázek 3).
+
+Měření trvá přibližně 10 minut. Průběh měření sledujte v části C uživatelského rozhraní.
 
 ![Měření napětí](screenshots/mereni_volt.png)
-*Obrázek 3: Spuštění měření napětí fotodiody.*
-
-![Měření sin/rect napětí](screenshots/measure_sin_rect_volt.png)
-*Obrázek 4: Spuštění měření pro kontrolu stability.*
+*Obrázek 3: Rozhraní pro sledování napětí.*
 
 ---
 [Zpět na README](README.md)
