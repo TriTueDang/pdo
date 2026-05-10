@@ -22,7 +22,7 @@ Aplikace umožňuje generovat vizuální stimuly pro psychofyzikální experimen
 > Pokud záložku v horní liště nevidíte, klikněte 2x na šipku vpravo u přepínače záložek.
 
 2. Inicializujte Psychtoolbox. Vyberte typ stimulu a nastavte jeho parametry. Obrázek 2 naznačuje tyto kroky.
-3. Stiskněte tlačítko **"Run"** u typu stimulu, který jste vybrali.
+3. Stiskněte tlačítko **"run"** u typu stimulu, který jste vybrali.
 4. Podle parametrů muže stimul na externím monitoru vypadat například jako Obrázek 3:
 
 <p align="center">
