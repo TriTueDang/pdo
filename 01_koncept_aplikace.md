@@ -1,10 +1,10 @@
 # Koncept projektu
 
-Tento dokument popisuje laboratorní sestavu, základní koncepty a rozdělení uživatelského rozhraní. Aplikace slouží k psychofyzikálním měřením a kalibraci monitorů v laboratorním prostředí.
+Tento dokument popisuje laboratorní sestavu, základní koncepty a rozdělení uživatelského rozhraní. Aplikace slouží ke kalibraci monitoru a generování vizuálních stimulů v laboratorním prostředí.
 
 ## Laboratorní sestava
 
-Sestava obsahuje laboratorní PC, primární monitor (60 Hz) a externí monitor (240 Hz). K systému jsou připojeny externí měřicí přístroje (kamera, fotodioda). Celá sestava je řízena pomocí aplikace.
+Sestava obsahuje laboratorní PC, primární monitor (60 Hz) a externí monitor (240 Hz). K systému mohou být připojeny externí měřicí přístroje (kamera, fotodioda). Celá sestava je řízena pomocí aplikace.
 
 <p align="center">
   <img src="screenshots/experiment_sestava.png" alt="Experimentální sestava">
@@ -18,7 +18,7 @@ Sestava obsahuje laboratorní PC, primární monitor (60 Hz) a externí monitor 
 
 Vidíte hlavní okno aplikace rozdělené na tři klíčové části:
 
-- **Část A:** Zde inicializujte systém a nastavte globální parametry.
+- **Část A:** Zde inicializujte systém.
 - **Část B:** Zde konfigurujte měření a spouštějte testovací podněty.
 - **Část C:** Zde sledujte výpis logů a průběh probíhajícího měření.
 
