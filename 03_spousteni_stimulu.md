@@ -1,6 +1,6 @@
 # Návod pro spouštění stimulů
 
-Aplikace umožňuje generovat vizuální stimuly pro psychofyzikální experimenty, jako je testování viditelnosti blikání (flicker) nebo kontrastní citlivosti.
+Aplikace umožňuje generovat vizuální stimuly pro psychofyzikální experimenty, jako je testování viditelnosti blikání (flikr) nebo kontrastní citlivosti.
 
 ## Postup spuštění stimulu
 
@@ -59,7 +59,7 @@ Slouží ke studiu viditelnosti flikru. Jas se mění plynule podle sinusové k�
 </p>
 
 ### 2. Obdélníkový stimul (Rectangular)
-Slouží ke stanovení kritické frekvence splývání (CFF). Jas skokově přechází mezi dvěma úrovněmi.
+Slouží ke stanovení viditelnosti flikru. Jas skokově přechází mezi dvěma úrovněmi.
 
 **Nastavte parametry:**
 - **Frekvence [Hz]:** Rychlost změn jasu.
@@ -75,7 +75,7 @@ Slouží ke stanovení kritické frekvence splývání (CFF). Jas skokově přec
 </p>
 
 ### 3. Sinusová mřížka (Grating)
-Slouží ke studiu kontrastní citlivosti (TCSF).
+Slouží ke studiu kontrastní citlivosti. Postupně se zvyšuje prostorová frekvence, dokud pozorovatel nevidí mřížky.
 
 **Nastavte parametry:**
 - **Spatial Frequency [cyc/deg]:** Hustota mřížky.
@@ -92,7 +92,7 @@ Slouží ke studiu kontrastní citlivosti (TCSF).
 </p>
 
 ### 4. Textový kontrast (Text Contrast)
-Slouží k testování čitelnosti textu.
+Jedná se o další možnost jak testovat kontrastní citlivost. Kontrast mezi písmem a pozadím se postupně snižuje, dokud text pro pozorovatele nepřestane být čitelný.
 
 **Nastavte parametry:**
 - **Text:** Obsah textu.
