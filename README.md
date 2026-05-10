@@ -2,7 +2,7 @@
 
 Tato dokumentace poskytuje přehled a uživatelské příručky k bakalářské práci.
 
-Systém je implementován v jazyce **C# (.NET Framework)** s využitím **Windows Forms**. Hlavním účelem aplikace je automatizovaná tvorba LUT (Look-Up Table) tabulek a generování přesně definovaných vizuálních podnětů pro psychofyzikální experimenty (např. měření kritické frekvence splývání flikru).
+Systém je implementován v jazyce **C# (.NET Framework)** s využitím **Windows Forms**. Hlavním účelem aplikace je tvorba LUT (Look-Up Table) tabulek a generování přesně definovaných vizuálních podnětů pro psychofyzikální experimenty (např. pro měření kontrastní citlivosti nebo měření prahu viditelnosti flikru).
 
 ---
 
