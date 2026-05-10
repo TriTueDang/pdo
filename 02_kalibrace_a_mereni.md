@@ -1,4 +1,4 @@
-# Návod pro měření LUT tabulek
+# Návod pro vytváření LUT tabulek
 
 Tento dokument popisuje postup při vytváření LUT (Look-Up Table) tabulek, které zajišťují správnou kalibraci barev a jasů monitoru pro experimentální účely.
 
@@ -19,11 +19,8 @@ Před začátkem měření proveďte základní nastavení monitoru.
 > **Zatemněte místnost.** Jakékoli okolní světlo zkresluje výsledky měření jasu.
 ---
 
-## Postup měření LUT
 
-Měření probíhá automatizovaně na základě zvolených úrovní signálu.
-
-### Měření jasu (Luminance)
+## Měření jasu (Luminance)
 
 Měření jasu probíhá pro celou škálu šedi (0–255). K měření použijte kalibrovanou kameru.
 
@@ -39,7 +36,7 @@ Měření jasu probíhá pro celou škálu šedi (0–255). K měření použijt
   <em>Obrázek 2: Postup spuštění měření jasu.</em>
 </p>
 
-### Měření napětí fotodiody
+## Měření napětí fotodiody
 
 V případě použití fotodiody měřte napětí přímo na výstupu čidla.
 
