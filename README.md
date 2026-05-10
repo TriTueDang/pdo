@@ -19,6 +19,6 @@ Jednotlivé kapitoly vás provedou od základního konceptu až po spouštění 
 ---
 
 > [!TIP]
-> Pro rychlou orientaci v kódu nebo struktuře projektu doporučujeme začít kapitolou o konceptu.
+> Pro rychlou orientaci v kódu nebo struktuře projektu doporučuji začít první kapitolou o přehledu a konceptu.
 
 *Poslední aktualizace: 12. dubna 2026*
