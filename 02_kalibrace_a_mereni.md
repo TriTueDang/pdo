@@ -20,7 +20,7 @@ Před začátkem měření proveďte základní nastavení monitoru.
 ---
 
 
-## Měření jasu (Luminance)
+## Měření jasu monitoru
 
 Měření jasu probíhá pro celou škálu šedi (0–255). K měření použijte kalibrovanou kameru.
 
