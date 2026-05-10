@@ -1,5 +1,5 @@
 # Dokumentace bakalářské práce
-Tato dokumentace poskytuje přehled a uživatelské příručky k bakalářské práci. Hlavním účelem aplikace je generování přesně definovaných vizuálních podnětů pro psychofyzikální experimenty (např. pro měření kontrastní citlivosti nebo prahu viditelnosti flikru). Pro realizaci byla použita kombinace prostředí MATLAB s knihovnou Psychtoolbox-3. Součástí práce bylo rovněž rozšíření stávajícího laboratorního softwaru v jazyce **C# (.NET Framework)** o rozhraní pro prezentaci podnětů.
+Tato dokumentace poskytuje přehled a uživatelské příručky k bakalářské práci. Hlavním účelem aplikace je generování přesně definovaných vizuálních stimulů pro psychofyzikální experimenty (např. pro měření kontrastní citlivosti nebo prahu viditelnosti flikru). Pro realizaci byla použita kombinace prostředí MATLAB s knihovnou Psychtoolbox-3. Součástí práce bylo rovněž rozšíření stávajícího laboratorního softwaru v jazyce **C# (.NET Framework)** o rozhraní pro prezentaci stimulů.
 
 ---
 
