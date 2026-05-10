@@ -27,7 +27,7 @@ Měření jasu probíhá pro celou škálu šedi (0–255). K měření použijt
 1. Připravte a zapněte kameru.
 2. Zaostřete kameru na středovou oblast monitoru, kde se vykresluje podnět.
 3. Spusťte automatické měření jasu (viz Obrázek 2).
-   Měření trvá přibližně 45 minut. Průběh měření sledujte v části C uživatelského rozhraní.
+   Měření trvá přibližně 45 minut.
 4. Vytvoří se LUT tabulka ve formátu CSV, která mapuje RGB hodnoty a jas.
 
 <p align="center">
@@ -42,7 +42,7 @@ V případě použití fotodiody měřte napětí přímo na výstupu čidla.
 
 1. Připojte fotodiodu k systému.
 2. Spusťte měření napětí (viz Obrázek 3).
-   Měření trvá přibližně 10 minut. Průběh měření sledujte v části C uživatelského rozhraní.
+   Měření trvá přibližně 10 minut.
 3. Vytvoří se LUT tabulka ve formátu CSV, která mapuje RGB hodnoty a napětí.
 
 <p align="center">
